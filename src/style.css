@@ -1,0 +1,32 @@
+.mainContainer{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.crono{
+    width: 300px;
+}
+
+.time{
+    color: black;
+    font-size: 90px;
+    margin-top: -210px;
+    margin-bottom: 110px;
+}
+
+.button{
+    background-color: floralwhite;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid white;
+    margin: 10px;
+}
+
+.button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
